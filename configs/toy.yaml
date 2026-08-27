@@ -1,0 +1,14 @@
+# CPU smoke. Output is TOY, not FI-2010.
+seed: 0
+model: mlp
+k: 1
+seq_len: 16
+split: paper_setup2
+epochs: 1
+batch_size: 16
+lr: 0.001
+synthetic_events: 80
+synthetic_days: 10
+force_synthetic: true
+alpha: 0.0002
+out_csv: toy_smoke.csv

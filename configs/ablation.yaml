@@ -1,0 +1,12 @@
+seed: 0
+model: both
+k: 1
+seq_len: 16
+split: chronological
+epochs: 1
+batch_size: 16
+lr: 0.001
+force_synthetic: true
+synthetic_events: 80
+synthetic_days: 10
+out_csv: toy_smoke.csv
