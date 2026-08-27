@@ -1,0 +1,6 @@
+label,source,model,k,split,eval_split,seed,epochs,n_train,n_eval,accuracy,macro_f1,class_counts_eval,note
+TOY,synthetic_toy,mlp,1,paper_setup2,test,0,1,448,192,0.364583,0.266517,"[66, 54, 72]",TOY synthetic smoke; not FI-2010; not tradable PnL
+TOY,synthetic_toy,lstm,1,paper_setup2,test,0,1,448,192,0.5,0.432355,"[66, 54, 72]",TOY synthetic smoke; not FI-2010; not tradable PnL
+TOY,synthetic_toy,deeplob,1,paper_setup2,test,0,1,448,192,0.463542,0.327135,"[66, 54, 72]",TOY synthetic smoke; not FI-2010; not tradable PnL
+TOY,synthetic_toy,ofi,1,paper_setup2,test,0,1,448,192,0.479167,0.398737,"[66, 54, 72]",TOY synthetic smoke; not FI-2010; not tradable PnL
+TOY,synthetic_toy,both,1,paper_setup2,test,0,1,448,192,0.307292,0.208668,"[66, 54, 72]",TOY synthetic smoke; not FI-2010; not tradable PnL
