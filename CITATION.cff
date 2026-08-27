@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Limit Order Book Forecasting: DeepLOB, TransLOB, and a Controlled Transformer"
+message: If you use this software, please cite it.
+type: software
+authors:
+  - family-names: Tabasi
+    given-names: Hossein
+license: MIT
+version: 0.1.0
+date-released: "2026-08-27"

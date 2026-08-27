@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deeplob-transformer"
+version = "0.1.0"
+description = "LOB mid-price classification: MLP, LSTM, DeepLOB, TransLOB-style encoder"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Hossein Tabasi"}]
+requires-python = ">=3.11"
+dependencies = [
+  "numpy",
+  "torch",
+  "scikit-learn",
+  "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
